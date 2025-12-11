@@ -1,0 +1,29 @@
+﻿This corpus has 6 documents with 56,296 total words and 7,322 unique word forms. Created about 17 hours ago.
+
+Document Length: 
+Longest:	  PS-03 - Numrich - 2014… (20765)	 Self-similarity of parall… (10370)	 PS-04 - Numrich - 2009… (9348)	 j.jpdc.2008.02.008 (6789)	 Implementation of Bucking… (5778)
+Shortest:	  Title (3246)	 Implementation of Bucking… (5778)	 j.jpdc.2008.02.008 (6789)	 PS-04 - Numrich - 2009… (9348)	 Self-similarity of parall… (10370)
+
+Vocabulary Density: 
+Highest:	  Title (0.314)	 Implementation of Bucking… (0.238)	 j.jpdc.2008.02.008 (0.237)	 PS-04 - Numrich - 2009… (0.225)	 Self-similarity of parall… (0.215)
+Lowest:	  PS-03 - Numrich - 2014… (0.192)	 Self-similarity of parall… (0.215)	 PS-04 - Numrich - 2009… (0.225)	 j.jpdc.2008.02.008 (0.237)	 Implementation of Bucking… (0.238)
+
+Average Words Per Sentence:
+Highest:	  Title (29.2)	 PS-03 - Numrich - 2014… (26.9)	 PS-04 - Numrich - 2009… (26.4)	 j.jpdc.2008.02.008 (26.1)	 Implementation of Bucking… (25.5)
+Lowest:	  Self-similarity of parall… (22.3)	 Implementation of Bucking… (25.5)	 j.jpdc.2008.02.008 (26.1)	 PS-04 - Numrich - 2009… (26.4)	 PS-03 - Numrich - 2014… (26.9)
+
+Readability Index:
+Highest:	  Implementation of Bucking… (23.052)	 PS-03 - Numrich - 2014… (15.583)	 Title (14.256)	 PS-04 - Numrich - 2009… (12.651)	 j.jpdc.2008.02.008 (12.619)
+Lowest:	  Self-similarity of parall… (12.413)	 j.jpdc.2008.02.008 (12.619)	 PS-04 - Numrich - 2009… (12.651)	 Title (14.256)	 PS-03 - Numrich - 2014… (15.583)
+
+Most frequent words in the corpus: 
+analysis (221)	 dimensional (159)	 machines (152)	 machine (147)	 efficiency (145)
+
+Distinctive words (compared to the rest of the corpus): 
+Implementation of Bucking…:	  repeating (36)	 rv (35)	 python (34)	 ρ (42)	 π (39).
+PS-03 - Numrich - 2014…:	  λ (67)	 b1 (53)	 θ (45)	 b2 (37)	 cache (93).
+PS-04 - Numrich - 2009…:	  τ (40)	 u0 (38)	 l1,2x (23)	 cells (18)	 ε (17).
+Self-similarity of parall…:	  ub (24)	 mixing (23)	 þ (20)	 coefficient (20)	 sgi (18).
+Title:	  γ (23)	 henry (10)	 word (13)	 256 (8)	 0.00000 (8).
+j.jpdc.2008.02.008:	  λ2 (18)	 λ1 (18)	 fs (14)	 fb (13)	 kn2 (12).
+

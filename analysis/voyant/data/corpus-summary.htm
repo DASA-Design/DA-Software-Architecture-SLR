@@ -1,0 +1,149 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Voyant Tools - Summary</title>
+
+<link rel="shortcut icon" type="image/ico" href="/resources/voyant/favicon.ico" />
+
+<!-- Google Tag Manager -->
+<script>
+	var gtmId = undefined;
+	if (window.location.hostname === 'beta.voyant-tools.org') {
+		gtmId = 'GTM-W4XT4SV6';
+	} else if (window.location.hostname === 'voyant-tools.org') {
+		gtmId = 'GTM-5SQ3JQS8';
+	}
+	if (gtmId !== undefined) {
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer',gtmId);
+	}
+</script>
+
+<!-- EXTJS CLASSIC -->
+<link rel="stylesheet" type="text/css" href="/resources/ext/6.2.0/charts-all.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/6.2.0/theme-crisp/resources/theme-crisp-all_1.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/6.2.0/theme-crisp/resources/theme-crisp-all_2.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/6.2.0/theme-crisp/resources/ux-all-debug.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/6.2.0/examples/style.css" />
+
+<!-- FontAwesome -->
+<link rel="stylesheet" type="text/css" href="/resources/fontawesome/4.7.0/font-awesome.min.css" />
+
+<!-- spectrum -->
+<link rel="stylesheet" type="text/css" href="/resources/spectrum/spectrum.css" />
+
+<link rel="stylesheet" type="text/css" href="/resources/css/styles.css" />
+
+
+
+
+
+
+
+
+<style>
+body {margin: 0; padding: 0;}
+#pageloading {position:absolute;top:50%;width:100%;margin-top:-70px}
+#pageloading .title{font-family:helvetica,arial,verdana,sans-serif;font-size:2em;color:gray;text-align:center;white-space:nowrap;display:block}
+#pageloading .logo{height:110px;text-align:center}
+#pageloading .logo img {
+    width: 90px;
+    height: 90px;
+	margin-top: 20px;
+    -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+</style>
+</head>
+<body>
+<div id="pageloading"><span class="title">Voyant Tools</span><div class="logo"><img src="/resources/images/voyant-logo-90.png" width="90" height="90"/></div></div>
+
+
+
+
+<!-- EXTJS CLASSIC -->
+<script type="text/javascript" src="/resources/ext/6.2.0/ext-all.js"></script>
+<script type="text/javascript" src="/resources/ext/6.2.0/charts.js"></script>
+
+<script type="text/javascript" src="/resources/ext/6.2.0/theme-crisp/theme-crisp.js"></script>
+<script type="text/javascript" src="/resources/ext/6.2.0/ux.js"></script>
+
+<!-- jQuery -->
+<script type="text/javascript" src="/resources/jquery/jquery.min.js"></script>
+
+
+
+<!-- D3 -->
+<script type="text/javascript" src="/resources/d3/current/d3.min.js"></script>
+<script type="text/javascript" src="/resources/d3/fisheye.js"></script>
+<script type="text/javascript" src="/resources/d3/d3-scale-chromatic.min.js"></script>
+<script type="text/javascript" src="/resources/cirrus/html5/d3.layout.cloud.js"></script>
+
+<!-- spectrum -->
+<script type="text/javascript" src="/resources/spectrum/spectrum.js"></script>
+
+<!-- spyral -->
+<script type="text/javascript" src="/resources/spyral/build/spyral.js"></script>
+
+<script type="text/javascript" src="/resources/voyant/current/voyant.fa1bbb3e09938384db65206717e25734.min.js"></script>
+<script type="text/javascript" src="/resources/voyant/current/voyant-locale-en.js"></script>
+
+
+<script>
+if (Ext) {
+	Ext.onReady(function () {
+		Ext.get("pageloading").hide();
+	});
+}
+</script>
+	
+<script>
+	Ext.Loader.setConfig({
+		enabled : true,
+		paths : {
+			'Voyant' : '../../app',
+			'resources': '../../resources',
+			'Ext.chart': '../../resources/ext/current/chart'
+		}
+	});
+	Ext.application({
+		extend : 'Voyant.VoyantToolApp',
+//		requires: ['Voyant.panel.VoyantHeader','Voyant.panel.Summary','Voyant.panel.VoyantFooter'],
+		name : 'VoyantToolApp',
+		config: {
+			baseUrl: '//127.0.0.1:8888/',
+			version: '2.6.19',
+			build: 'null',
+			tool: 'summary',
+			allowInput: '',
+			entitiesEnabled: false
+		},
+		launch: function() {
+			if (document.location.search.length==0) {
+				var url = "../../?view=Summary";
+				if (document.location.search) {
+					url+="&"+document.location.search.substring(1)
+				}
+				window.location.replace(url)
+			} else {
+				this.callParent(arguments);
+			}
+		}
+	});
+	
+</script>
+
+</body>
+</html>
