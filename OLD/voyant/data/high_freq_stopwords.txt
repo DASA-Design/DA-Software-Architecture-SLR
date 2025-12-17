@@ -1,8 +1,0 @@
-α
-time
-size
-problem
-β
-parallel
-number
-φ

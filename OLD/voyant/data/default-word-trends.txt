@@ -1,7 +1,0 @@
-﻿Index	analysis	dimensional	machines	machine	efficiency
-Implementation of Buckingham's Pi theorem using Python	0.0032883	0.0069228	0.0001731	0.0008654	0.0000000
-PS-03 - Numrich - 2014 - Computer performance analysis and the Pi Theorem	0.0044787	0.0022634	0.0019263	0.0009150	0.0016855
-PS-04 - Numrich - 2009 - Computational forces in the SAGE benchmark	0.0037441	0.0024604	0.0035302	0.0039581	0.0050278
-Self-similarity of parallel machines	0.0033751	0.0022179	0.0046287	0.0047252	0.0008679
-Title	0.0064695	0.0043130	0.0030807	0.0030807	0.0067776
-doi:10.1016/j.jpdc.2008.02.008	0.0026513	0.0017676	0.0029459	0.0039770	0.0047135
