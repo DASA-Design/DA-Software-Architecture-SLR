@@ -1,10 +1,13 @@
 ﻿# REVIEW PROCESS
+
 This section documents the *Systematic Literature Review (SLR)* on *Dimensional Analysis (DA)* in software architecture and development. The process follows established SLR \& *Systematic Mapping Study (SMS)* guidance in software engineering and is structured as an iterative workflow with quality checkpoints.
 
 [Back to top](#review-process)
 
 ---
+
 ## Purpose \& Scope
+
 - **Goal:** identify the current state, applications, tools, contributions, limitations, and gaps related to DA in software architecture/development.
 - **Time window:** searches were executed in two phases: an initial run targeting **2010–2020** and an update targeting **2010–2024**.
 - **Primary sources:** five academic archives were used as the main search venues: **ACM**, **ASME**, **IEEE Xplore**, **ScienceDirect**, and **SpringerLink**.
@@ -12,7 +15,9 @@ This section documents the *Systematic Literature Review (SLR)* on *Dimensional 
 [Back to top](#review-process)
 
 ---
+
 ## High-level workflow (Plan > Execute > Report)
+
 The _SLR_ is organized into three stages (also represented as BPMN 2.0 diagrams in the [Image 1](#image-1-slr-method-overview) below and in the `protocol/img/svg/` folder). these stages are:
 
 1. **Plan:** define and validate the review protocol,
@@ -21,25 +26,26 @@ The _SLR_ is organized into three stages (also represented as BPMN 2.0 diagrams 
 
 ### Image 1: SLR Method Overview
 
-<svg viewBox="0 0 900 900" width="300" height="300">
-    <!-- SVG content -->
-    <image href="img/svg/01 - SLR Method.svg" alt="overall-diagram" />
-    <div align="center"><em>Image 1. SLR Method Overview.</em></div>
-</svg>
+`<svg viewBox="0 0 900 900" width="300" height="300">`
+    `<!-- SVG content -->`
+    `<image href="img/svg/01 - SLR Method.svg" alt="overall-diagram" />`
+    `<div align="center"><em>`Image 1. SLR Method Overview.`</em></div>`
+`</svg>`
 
 The detailed tasks are in [Image 2](#image-2-slr-process-tasks), and as seen, the decision gates applied between iterations ensure (a) protocol quality, (b) document eligibility, and (c) report quality.
 
 ### Image 2: SLR Process tasks
 
-<svg viewBox="0 0 900 900" width="300" height="300">
-    <!-- SVG content -->
-    <image href="img/svg/02 - SLR Process.svg" alt="task-diagram" />
-    <div align="center"><em>Image 2. SLR Process tasks.</em></div>
-</svg>
+`<svg viewBox="0 0 900 900" width="300" height="300">`
+    `<!-- SVG content -->`
+    `<image href="img/svg/02 - SLR Process.svg" alt="task-diagram" />`
+    `<div align="center"><em>`Image 2. SLR Process tasks.`</em></div>`
+`</svg>`
 
 [Back to top](#review-process)
 
 ---
+
 ## STAGE-1: Plan (protocol definition and quality control)
 
 In the planning stage, the protocol is specified and iterated until it satisfies quality controls according to the process tasks in [Image 2](#image-2-slr-process-tasks).
@@ -54,16 +60,17 @@ The protocol is defined through the following artifacts:
 - **Inclusion \& Exclusion Criteria (IC \& EC)** (object **O-04**)
 - **Approved Protocol** after review (object **O-05**)
 
-### PICO Strategy (search framing)
+### PICO Strategy
 
-The search strategy is refined using PICO:
+The _PICO_ (_Population_, _Intervention_, _Comparison_, _Outcomes_) strategy frames the search using the following elements:
 
-- **Population:** studies (2010–2020, updated to 2024) on DA in software architecture or development
-- **Intervention:** application of DA aligned with the RQs
-- **Comparison:** no external control group; the search is repeated (2020 and 2024) for internal comparison
-- **Outcomes:** identify the state and trends of DA in software architecture/development
+- **Population:** documents between 2010–2020 (updated to 2024).
+- **Intervention:** content aligned to the **RQs**.
+- **Comparison:** no external comparison group; the internal comparison is done by repeating the search in 2020 and 2024.
+- **Outcomes:** identify the state and trends of Dimensional Analysis applied into software architecture/development.
 
 The full PICO strategy is documented in [PICO Strategy](../protocol/md/pico_strategy.md)
+
 <!-- --8<-- "md/pico_strategy.md:pico-table -->
 
 ### Search Strings
@@ -128,6 +135,7 @@ The current in-repo Zotero exports show:
 [Back to top](#review-process)
 
 ---
+
 ## STAGE-3: Report (synthesis, mapping, and final quality control)
 
 In the reporting stage, the curated corpus is synthesized and mapped to answer the RQs and produce the final report.
@@ -136,10 +144,10 @@ In the reporting stage, the curated corpus is synthesized and mapped to answer t
 
 - Documents are loaded into the **Voyant** NLP tool (data source **DS-03**) for:
 
-    - semantic consistency checks
-    - vocabulary density and readability estimation
-    - visualization (e.g., Cirrus, collocates graphs)
-    - topic modeling via **Latent Dirichlet Allocation (LDA)**
+  - semantic consistency checks
+  - vocabulary density and readability estimation
+  - visualization (e.g., Cirrus, collocates graphs)
+  - topic modeling via **Latent Dirichlet Allocation (LDA)**
 
 ### Systematic Mapping
 
@@ -175,11 +183,13 @@ A report-quality decision gate (**C-03**) is used to decide whether to adjust NL
 [Back to top](#review-process)
 
 ---
+
 ## REFERENCES
+
 <!-- internal references -->
 
-
 <!-- external references -->
+
 1. Kitchenham, B., & Charters, S. (2007). Guidelines for performing systematic literature reviews in software engineering. EBSE Technical Report.
 2. 
 3. Petersen, K., Feldt, R., Mujtaba, S., & Matt
