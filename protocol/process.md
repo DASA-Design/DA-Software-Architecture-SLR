@@ -65,7 +65,22 @@ The search strategy is refined using PICO:
 
 The full PICO strategy is documented in:
 
---8<-- [pico_strategy.md](http://_vscodecontentref_/8)
+<!-- <!-- AUTO-EXPANDED from md/pico_strategy.md:pico-table -->
+| ELEMENT | DESCRIPTION |
+|:---:|:---|
+| **Population** | Studies (2010–2020, updated to 2024) on Dimensional Analysis in software architecture or development. |
+| **Intervention** | Application of DA in software architecture or development, aligned with our *Research Questions*. |
+| **Comparison** | No external group: survey repeated in 2020 and 2024 for internal comparison. |
+| **Outcomes** | Identify the current state and trends of DA in software architecture or development. |
+<!-- END AUTO-EXPANDED --> -->
+<!-- AUTO-EXPANDED from md/pico_strategy.md:pico-table -->
+| ELEMENT | DESCRIPTION |
+|:---:|:---|
+| **Population** | Studies (2010–2020, updated to 2024) on Dimensional Analysis in software architecture or development. |
+| **Intervention** | Application of DA in software architecture or development, aligned with our *Research Questions*. |
+| **Comparison** | No external group: survey repeated in 2020 and 2024 for internal comparison. |
+| **Outcomes** | Identify the current state and trends of DA in software architecture or development. |
+<!-- END AUTO-EXPANDED -->
 
 ### Search Strings
 

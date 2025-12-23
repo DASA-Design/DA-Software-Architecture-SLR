@@ -87,7 +87,7 @@ def main():
     expanded_content = expand_snippets(input_file, base_dir)
 
     output_file.write_text(expanded_content, encoding='utf-8')
-    print(f"✓ Expanded snippets in {input_file} → {output_file}")
+    print(f"[OK] Expanded snippets in {input_file} -> {output_file}")
 
 
 if __name__ == '__main__':
