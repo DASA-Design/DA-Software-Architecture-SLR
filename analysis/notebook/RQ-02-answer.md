@@ -1,12 +1,12 @@
-## 🔍 **RQ-02: How do engineers use Dimensional Analysis in software development or architecture?**
+# 🔍 **RQ-02: How do engineers use Dimensional Analysis in software development or architecture?**
 
-### ✅ **Summary:**
+## ✅ **Summary:**
 
 Engineers use Dimensional Analysis (DA) in software development and architecture primarily to model execution behaviour, reduce complex performance formulas, derive dimensionless metrics, and compare systems across architectures. DA serves as a bridge between physical modeling concepts and computational performance optimization.
 
 ---
 
-### 📚 **Evidence List:**
+## 📚 **Evidence List:**
 
 | ID    | Document Title                                              | How Engineers Use Dimensional Analysis                                                                                                      |
 | ----- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@ Engineers use Dimensional Analysis (DA) in software development and architecture
 | PS-05 | *Computational Forces in the Linpack Benchmark*           | Engineers simplify a complex 10-variable performance model using DA, identifying key software/hardware force ratios.                        |
 | PS-06 | *Dimensional Analysis Applied to a Parallel QR Algorithm* | Engineers apply DA to abstract runtime complexity into geometric surfaces, aiding in comparison of QR algorithm behaviour across platforms. |
 
-### 🧠 **Patterns:**
+## 🧠 **Patterns:**
 
 * DA is **used as a modeling and abstraction tool** to simplify complex performance metrics into manageable forms.
 * Engineers **embed DA into tooling and code** (e.g., Python scripts) to compute or simulate dimensionless indicators.

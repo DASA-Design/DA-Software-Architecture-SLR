@@ -1,10 +1,10 @@
-## 🔍 **RQ-01: What are the current applications of Dimensional Analysis in modern software development or architecture?**
+# 🔍 **RQ-01: What are the current applications of Dimensional Analysis in modern software development or architecture?**
 
-### ✅ **Summary:**
+## ✅ **Summary:**
 
 Dimensional Analysis (DA) is being applied in software performance modeling, benchmarking, algorithm analysis, and system equivalence classification. The primary focus is on generating **dimensionless performance metrics** to enable cross-platform comparison, identify computational bottlenecks, and optimize parallel numerical algorithms.
 
-### 📚 **Evidence List:**
+## 📚 **Evidence List:**
 
 | ID    | Document Title                                              | Application of Dimensional Analysis                                                                                             |
 | ----- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -15,7 +15,7 @@ Dimensional Analysis (DA) is being applied in software performance modeling, ben
 | PS-05 | *Computational Forces in the Linpack Benchmark*           | Simplifies runtime modeling via DA; builds force-based performance surfaces to compare systems using Linpack benchmark results. |
 | PS-06 | *Dimensional Analysis Applied to a Parallel QR Algorithm* | Models QR execution as a dimensional surface for performance comparison across machines using compute/comm ratios.              |
 
-### 🧠 **Patterns:**
+## 🧠 **Patterns:**
 
 * Most studies use DA to construct **performance models** and reduce system behaviour into  **dimensionless surfaces or metrics** .
 * DA enables  **cross-system comparison** , identification of  **scaling limits** , and  **algorithm-specific optimizations** .

@@ -1,12 +1,12 @@
-## 🔍 **RQ-03: What are the software tools associated with Dimensional Analysis?**
+# 🔍 **RQ-03: What are the software tools associated with Dimensional Analysis?**
 
-### ✅ **Summary:**
+## ✅ **Summary:**
 
 The primary software tools associated with Dimensional Analysis (DA) include symbolic computation libraries, numerical modeling environments, and benchmarking utilities. These tools are used to compute π-groups, simulate runtime models, analyse performance metrics, and automate dimensional reduction in software architecture and development contexts.
 
 ---
 
-### 📚**Evidence List:**
+## 📚 **Evidence List:**
 
 | ID    | Document Title                                              | Software Tools Associated with DA                                                                                  |
 | ----- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -17,14 +17,14 @@ The primary software tools associated with Dimensional Analysis (DA) include sym
 | PS-05 | *Computational Forces in the Linpack Benchmark*           | Benchmarking suites like LINPACK, along with analytical reduction tools for force ratio modeling.                  |
 | PS-06 | *Dimensional Analysis Applied to a Parallel QR Algorithm* | Mathematical modeling environments and symbolic algebra to derive dimensional matrices and compare algorithms.     |
 
-### 🛠️**Common Tool Types:**
+## 🛠️ **Common Tool Types:**
 
 * **Symbolic computation frameworks** (e.g., SymPy in Python)
 * **Benchmarking platforms** (e.g., LINPACK, SAGE)
 * **Algebraic modeling tools** (for performance decomposition)
 * **Execution environment instrumentation** (to collect runtime data for dimensional comparisons)
 
-### 🧠 **Patterns:**
+## 🧠 **Patterns:**
 
 * **Symbolic Tools:** Python libraries like **SymPy** automate π-group computation, mainly in fluid mechanics (PS-01).
 * **Benchmarks as Proxies:** Tools like **SAGE** and **LINPACK** provide structured data for DA modeling, though not DA-specific (PS-04, PS-05).
