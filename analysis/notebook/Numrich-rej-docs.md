@@ -1,4 +1,6 @@
-### 🔹 **RD-04: "The computational energy spectrum of a program as it executes" (2010)**
+# Rejected Numrich Documents📚
+
+## 🔹**RD-04: "The computational energy spectrum of a program as it executes" (2010)**
 
 **Summary:** Proposes a method for measuring a program’s performance fluctuations over time using a computational energy spectrum and a concept called "computational action norm", inspired by physical action in mechanics.
 
@@ -10,7 +12,7 @@
 
 ---
 
-### 🔹 **RD-08: "A metric space for computer programs and the principle of computational least action" (2008)**
+## 🔹**RD-08: "A metric space for computer programs and the principle of computational least action" (2008)**
 
 **Summary:** Defines a normed metric space for programs based on a computational action function derived from Hockney’s model and Newtonian dynamics, proposing a "Principle of Computational Least Action" to evaluate program efficiency.
 
