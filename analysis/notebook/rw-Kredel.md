@@ -1,4 +1,6 @@
-### 📄 **Document Summaries**
+# 📚 Kredel's Work
+
+## 📄 **Document Summaries**
 
 **1. Kredel et al. (2013) – *A Simple Concept for the Performance Analysis of Cluster-Computing***
 
@@ -10,7 +12,7 @@ Develops a hierarchical model using abstract efficiency metrics for multi-level 
 
 ---
 
-### 🧠 **Authors' Perspective on Numrich’s Work**
+## 🧠 **Authors' Perspective on Numrich’s Work**
 
 Kredel et al. recognize Numrich’s contributions as intellectually stimulating and rooted in physical analogies (mechanics and dimensional analysis), especially in *Computer Performance Analysis and the Pi Theorem* and  *Computational Force* , but they critique these approaches for being overly abstract and detached from practical performance modeling.
 
