@@ -1,41 +1,42 @@
-### **Summary** :
+# 📚 Mahdavi-Hezavehi's SLR
+
+## **Summary** :
 
 Mahdavi-Hezavehi et al. (2017) present a systematic literature review that classifies and evaluates architectural methods for handling multiple Quality Attributes (QAs) in self-adaptive systems, identifying performance, reliability, cost, availability, and scalability as the most commonly addressed QAs, and emphasizing that most methods rely on single-loop feedback mechanisms, use utility functions and QA metrics for decision-making, and lack systematic frameworks for adaptation and trade-off management.
 
-### **Relation to Numrich’s Work** :
-
+## **Relation to Numrich’s Work** :
 Both this study and Numrich’s research aim to simplify the management of complex trade-offs and computational behaviors in software systems through modeling. However, while Mahdavi-Hezavehi et al. rely on utility functions, metrics, and ad hoc adaptation strategies, they overlook dimensional analysis as a viable and formal tool, something our SLR confirms has strong potential, as evidenced by Numrich’s application of dimensionless modeling to unify and clarify software performance dynamics. This absence underscores the gap that Numrich’s methods could fill in architectural approaches to self-adaptive systems.
 
-### SLR Evidence Notes
+## SLR Evidence Notes
 
-#### **Title**
+### **Title**
 
 * *A systematic literature review on methods that handle multiple quality attributes in architecture-based self-adaptive systems*
 
-#### **Short Name**
+### **Short Name**
 
 * M to H MQA
 
-#### **Publication Year**
+### **Publication Year**
 
 * 2017
 
-#### **Academic Source**
+### **Academic Source**
 
 * Science Direct
 
-#### **Authors**
+### **Authors**
 
 * Mahdavi-Hezavehi, Sara
 * Durelli, Vinicius H.S.
 * Weyns, Danny
 * Avgeriou, Paris
 
-#### **Objectives**
+### **Objectives**
 
 * To review the state-of-the-art of architecture-based methods for handling multiple QAs in self-adaptive systems and provide a descriptive analysis of the collected data from the literature.
 
-#### **Research Questions**
+### **Research Questions**
 
 * RQ1: What are the characteristics of the existing architectural methods for handling multiple QAs in self-adaptive software systems?
 * RQ2: Which sets of QAs are addressed by existing methods?
@@ -52,32 +53,25 @@ Both this study and Numrich’s research aim to simplify the management of compl
 * RQ13: What tools/languages are used/developed to support QA trade-off in existing methods?
 * RQ14: Does the method provide any evidence for validating the result of decision-making mechanism regarding satisfaction of QAs after adaptation (i.e., assurances)?
 
-#### **Methodology By**
-
+### **Methodology By**
 * B. A. Kitchenham and S. Charters
 
-#### **PS Source**
-
+### **PS Source**
 * ACM Digital Library, IEEE Xplore, Science Direct, and SpringerLink
 
-#### **Review Timeline**
-
+### **Review Timeline**
 * 2000–2014
 
-#### **Timeframe**
-
+### **Timeframe**
 * 14 years
 
-#### **Review Corpora**
-
+### **Review Corpora**
 * 7453 records
 
-#### **Primary Studies**
-
+### **Primary Studies**
 * 54 included studies
 
-#### **Result Summary**
-
+### **Result Summary**
 * RQ1: Characteristics analyzed include the method, system controller, target system, and application/development domain.
 * RQ2: Most addressed QAs: Performance (67\%), Cost (31\%), Reliability (28\%), Availability (19\%), Scalability (13\%).
 * RQ3: Feedback loops: one (50\%), two (6\%), three (4\%), mainly for performance, cost, availability, etc.
@@ -93,8 +87,7 @@ Both this study and Numrich’s research aim to simplify the management of compl
 * RQ13: Tools: PRISM, XTEAM, Groove, Factory (trade-off support); IBM toolkit, OPERA (measurement); Languages: Stich, D-KLAPER.
 * RQ14: Validation approaches: simulation (17\%), model checking (9\%), testing (17\%), runtime verification (6\%), formal proofs (2\%), etc.
 
-#### **Main Conclusion or Contribution**
-
+### **Main Conclusion or Contribution**
 * Performance, reliability, flexibility, maintainability, and availability are emphasized QAs.
 * Need for better trade-off analysis and proactive mechanisms.
 * Most methods use one feedback loop with ad hoc adaptation strategies and weak formal frameworks.
