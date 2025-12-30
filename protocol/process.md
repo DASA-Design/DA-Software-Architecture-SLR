@@ -309,18 +309,14 @@ FINAL OUTPUT: O-12 (Survey Report)
 
 **SLR Methodology Guidelines:**
 
-1. Kitchenham, B., & Charters, S. (2007). *Guidelines for performing systematic literature reviews in software engineering.* EBSE Technical Report EBSE-2007-01.
-2. Petersen, K., Feldt, R., Mujtaba, S., & Mattsson, M. (2008). *Systematic mapping studies in software engineering.* In Proceedings of the 12th International Conference on Evaluation and Assessment in Software Engineering (EASE).
-3. Budgen, D., Turner, M., Brereton, P., & Kitchenham, B. (2008). *Using mapping studies in software engineering.* In Proceedings of PPIG 2008.
-4. Wohlin, C., Runeson, P., Höst, M., Ohlsson, M. C., Regnell, B., & Wesslén, A. (2012). *Experimentation in software engineering.* Springer Science & Business Media.
-
-**PICO Strategy:**
-
-5. Petticrew, M., & Roberts, H. (2008). *Systematic reviews in the social sciences: A practical guide.* John Wiley & Sons.
+1. Barbara Kitchenham, O. Pearl Brereton, David Budgen, Mark Turner, John Bailey, Stephen Linkman, (2009). *Systematic literature reviews in software engineering - A systematic literature review*, Information and Software Technology, Volume 51, Issue 1, Pages 7-15, [ISSN 0950-5849](https://doi.org/10.1016/j.infsof.2008.09.009).
+2. Petersen, K., Feldt, R., Mujtaba, S., & Mattsson, M. (2008). *Systematic mapping studies in software engineering*, 12th International Conference on Evaluation and Assessment in Software Engineering, EASE 2008. BCS Learning and Development Ltd. [Conference date: 26-27, June 2008](https://doi.org/10.14236/ewic/ease2008.8)
+3. Kai Petersen, Sairam Vakkalanka, Ludwik Kuzniarz, (2015). *Guidelines for conducting systematic mapping studies in software engineering: An update*, Information and Software Technology, Volume 64, Pages 1-18, [ISSN 0950-5849](https://doi.org/10.1016/j.infsof.2015.03.007).
+4. Claes Wohlin, Emilia Mendes, Katia Romero Felizardo, Marcos Kalinowski, (2020). *Guidelines for the search strategy to update systematic literature reviews in software engineering.* Information and Software Technology, 127, 106366. Available at: [ISSN 0950-5849](https://doi.org/10.1016/j.infsof.2020.106366)
 
 **BPMN Notation:**
 
-6. Object Management Group (OMG). (2011). *Business Process Model and Notation (BPMN) Version 2.0.* OMG Document Number: formal/2011-01-03.
+6. Object Management Group (OMG). (2011). *Business Process Model and Notation (BPMN) Version 2.0.* OMG Document Number: formal/2011-01-03. Available at: [OMG BPMN 2.0 Specification](https://www.omg.org/spec/BPMN/2.0/)
 
 [Back to top](#protocol-profile)
 
